@@ -1,8 +1,4 @@
 .DS_Store
-Thumbs.db
-*.log
-.env
-.env.*
-!.env.example
+**/.DS_Store
 .impeccable/
-test_visual.py
+web/gulash/Архив.zip

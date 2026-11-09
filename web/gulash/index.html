@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#11120f">
+  <meta name="description" content="Goulash — операционная платформа для ресторанов и сетей доставки. Заказы, кухня, логистика, CRM и аналитика в едином потоке.">
+  <title>Goulash — ресторан работает как система</title>
+  
+  <link rel="icon" href="https://goulash.tech/wp-content/uploads/2023/08/cropped-logo-footer-1-32x32.webp" sizes="32x32">
+  <link rel="icon" href="https://goulash.tech/wp-content/uploads/2023/08/cropped-logo-footer-1-192x192.webp" sizes="192x192">
+  <link rel="apple-touch-icon" href="https://goulash.tech/wp-content/uploads/2023/08/cropped-logo-footer-1-180x180.webp">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="top">
+  <div class="site-shell">
+    
+    <!-- HEADER -->
+    <header class="header">
+      <a class="logo" href="#top" aria-label="Goulash — на главную">
+        <svg class="g2-logo__mark" viewBox="0 0 48 48" fill="none" aria-hidden="true" focusable="false">
+          <path d="M35.8708 0H11.6535C5.21774 0 0 5.24615 0 11.7169V36.0662C0 42.5369 5.21774 47.7831 11.6535 47.7831H35.8708C42.3065 47.7831 47.5243 42.5369 47.5243 36.0662V11.7154C47.5243 5.24462 42.3065 0 35.8708 0Z" fill="#00FFFF"></path>
+          <path d="M15.8418 15.9297H7.92188V23.8928V31.8558H15.8418V23.8928V15.9297Z" fill="#040406"></path>
+          <path d="M31.6827 15.9295V7.96484H23.7628H15.8413V15.9295H23.7628H31.6827Z" fill="#040406"></path>
+          <path d="M15.8413 31.8555V39.8201H23.7628H31.6827V31.8555H23.7628H15.8413Z" fill="#040406"></path>
+          <path d="M39.6031 23.8945H31.6831V31.8576H39.6031V23.8945Z" fill="#040406"></path>
+        </svg>
+        <span class="logo-name">Goulash.tech</span>
+      </a>
+
+      <nav class="nav" id="main-nav">
+        <a href="#audiences">Для кого</a>
+        <a href="#system">Демо интерфейса</a>
+        <a href="#platform">Возможности</a>
+      </nav>
+
+      <a class="header-cta" href="#contact">
+        Подключить <span>↗</span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <main>
+      <!-- HERO -->
+    <section class="hero">
+        <!-- ФОНОВОЕ ВИДЕО С ЗАТЕМНЕНИЕМ -->
+        <div class="hero-video-bg">
+          <video autoplay muted loop playsinline class="hero-video-elem">
+            <source src="video/video.mp4" type="video/mp4">
+          </video>
+          <div class="hero-video-overlay"></div>
+        </div>
+
+        <!-- КОНТЕНТ ПОВЕРХ ВИДЕО -->
+        <div class="hero-copy">
+          <div class="eyebrow">
+            <span class="status-dot"></span>
+            Операционная система ресторанного бизнеса
+          </div>
+
+          <h1>
+            Вся доставка<br>
+            ресторана —<br>
+            <span class="heading-accent">в едином ритме.</span>
+          </h1>
+
+          <p class="hero-description">
+            Объедините агрегаторы, сайт, мобильное приложение, кухню, логистику курьеров и CRM в бесшовный поток данных. Без ручной рутины, потери заказов и задержек.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#system">
+              Попробовать демо <span>↘</span>
+            </a>
+            <a class="text-link" href="#audiences">
+              Выбрать решение под свою роль <span>↓</span>
+            </a>
+          </div>
+
+          <div class="hero-footnote">
+            <span class="footnote-line"></span>
+            <span>ПОДХОДИТ ДЛЯ DARK KITCHEN, ОДИНОЧНЫХ ЗАВЕДЕНИЙ И ФЕДЕРАЛЬНЫХ СЕТЕЙ</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- TICKER / MARQUEE -->
+<div class="marquee">
+  <div class="marquee-track">
+    <!-- Первый набор -->
+    <span>МУЛЬТИКАНАЛЬНЫЙ ПРИЕМ ЗАКАЗОВ</span>
+    <i>✻</i>
+    <span>УМНЫЙ СТОП-ЛИСТ</span>
+    <i>✻</i>
+    <span>АВТОМАТИЧЕСКАЯ МАРШРУТИЗАЦИЯ КУРЬЕРОВ</span>
+    <i>✻</i>
+    <span>RFM И ПЕРСОНАЛЬНЫЙ CRM</span>
+    <i>✻</i>
+    <span>БЫСТРЫЙ ЗАПУСК НОВЫХ ТОЧЕК</span>
+    <i>✻</i>
+    <span>ЕДИНОЕ ОКНО ОПЕРАЦИЙ</span>
+    <i>✻</i>
+
+    <!-- Второй набор (дубликат для бесшовного репита) -->
+    <span>МУЛЬТИКАНАЛЬНЫЙ ПРИЕМ ЗАКАЗОВ</span>
+    <i>✻</i>
+    <span>УМНЫЙ СТОП-ЛИСТ</span>
+    <i>✻</i>
+    <span>АВТОМАТИЧЕСКАЯ МАРШРУТИЗАЦИЯ КУРЬЕРОВ</span>
+    <i>✻</i>
+    <span>RFM И ПЕРСОНАЛЬНЫЙ CRM</span>
+    <i>✻</i>
+    <span>БЫСТРЫЙ ЗАПУСК НОВЫХ ТОЧЕК</span>
+    <i>✻</i>
+    <span>ЕДИНОЕ ОКНО ОПЕРАЦИЙ</span>
+    <i>✻</i>
+  </div>
+</div>
+
+      <!-- СЕКЦИЯ 01: ЦЕЛЕВЫЕ АУДИТОРИИ (С ПЕРЕКЛЮЧАТЕЛЕМ) -->
+      <section class="section audiences-section" id="audiences">
+        <div class="section-meta">
+          <span>01 — АУДИТОРИИ И СЦЕНАРИИ</span>
+          <span>TAILORED WORKFLOWS FOR KEY ROLES</span>
+        </div>
+
+        <div class="audiences-header">
+          <h2>
+            Один Goulash.<br>
+            <span>Решение для каждого стейкхолдера.</span>
+          </h2>
+          <p>
+            Каждая роль решает свои задачи — от контроля себестоимости отдельного шефа до сквозного управления десятками филиалов. Выберите свою роль:
+          </p>
+        </div>
+
+        <!-- ТАБЫ ПЕРЕКЛЮЧЕНИЯ РОЛЕЙ -->
+        <div class="audience-tabs" role="tablist" aria-label="Роли в ресторанном бизнесе">
+          <button class="audience-tab-btn active" role="tab" aria-selected="true" data-audience="single">
+            <span class="tab-index">01</span>
+            <span class="tab-title">Одиночный ресторан</span>
+          </button>
+          <button class="audience-tab-btn" role="tab" aria-selected="false" data-audience="chain">
+            <span class="tab-index">02</span>
+            <span class="tab-title">Ресторанная сеть</span>
+          </button>
+          <button class="audience-tab-btn" role="tab" aria-selected="false" data-audience="ops">
+            <span class="tab-index">03</span>
+            <span class="tab-title">Операции и доставка</span>
+          </button>
+          <button class="audience-tab-btn" role="tab" aria-selected="false" data-audience="marketing">
+            <span class="tab-index">04</span>
+            <span class="tab-title">Маркетинг и CRM</span>
+          </button>
+        </div>
+
+        <!-- КОНТЕНТ ПО АУДИТОРИЯМ -->
+        <div class="audience-panels">
+          
+          <!-- ПАНЕЛЬ 1: ОДИНОЧНЫЙ РЕСТОРАН -->
+          <article class="audience-card active" data-audience-panel="single">
+            <div class="audience-card-main">
+              <span class="audience-badge">ДЛЯ СОБСТВЕННИКА И УПРАВЛЯЮЩЕГО</span>
+              <h3>Управление потоком заказов без перегрузки и хаоса</h3>
+              <p class="audience-summary">
+                Избавьтесь от трех планшетов агрегаторов на стойке, ручных записей и потерянных чеков. Заказы из приложения, сайта и доставки стекаются в один интуитивный экран.
+              </p>
+              
+              <div class="audience-features-grid">
+                <div class="audience-feature">
+                  <b>Единое окно приема</b>
+                  <p>Все источники заказов в одном планшете у кассира или администратора.</p>
+                </div>
+                <div class="audience-feature">
+                  <b>Меньше ошибок персонала</b>
+                  <p>Заказ автоматически попадает на кухонный экран с таймером готовности.</p>
+                </div>
+                <div class="audience-feature">
+                  <b>Быстрый запуск доставки</b>
+                  <p>Готовые инструменты для работы как со своими курьерами, так и со сторонними службами.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="audience-card-preview">
+              <div class="preview-mini-hud">
+                <div class="hud-header">
+                  <span>Филиал: «Крафт & Гриль»</span>
+                  <span class="hud-pill">Статус: Онлайн</span>
+                </div>
+                <div class="hud-metric">
+                  <span>Средний чек</span>
+                  <strong>1 850 ₽</strong>
+                </div>
+                <div class="hud-metric">
+                  <span>Время сборки</span>
+                  <strong>14 мин</strong>
+                </div>
+                <div class="hud-callout">
+                  «Перестали терять чеки в пиковые вечерние часы — скорость отдачи выросла на 28%».
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ПАНЕЛЬ 2: РЕСТОРАННАЯ СЕТЬ -->
+          <article class="audience-card" data-audience-panel="chain">
+            <div class="audience-card-main">
+              <span class="audience-badge">ДЛЯ CEO И ОПЕРАЦИОННЫХ ДИРЕКТОРОВ</span>
+              <h3>Централизованный контроль сети из единого аккаунта</h3>
+              <p class="audience-summary">
+                Управляйте ценообразованием, зонами доставки, стоп-листами ингредиентов и правами доступа по всей сети за считанные секунды без созвонов с управляющими.
+              </p>
+              
+              <div class="audience-features-grid">
+                <div class="audience-feature">
+                  <b>Глобальные стоп-листы</b>
+                  <p>Сняли блюдо с продажи в одном месте — оно скрылось во всех точках и агрегаторах.</p>
+                </div>
+                <div class="audience-feature">
+                  <b>Сводная бенчмарк-аналитика</b>
+                  <p>Сравнивайте выручку, скорость кухни и конверсию разных филиалов в реальном времени.</p>
+                </div>
+                <div class="audience-feature">
+                  <b>Мульти-меню и кластеризация</b>
+                  <p>Индивидуальные цены и ассортимент под разные города и форматы заведений.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="audience-card-preview">
+              <div class="preview-mini-hud">
+                <div class="hud-header">
+                  <span>Сеть: 12 локаций</span>
+                  <span class="hud-pill accent">Сводка за день</span>
+                </div>
+                <div class="hud-metric">
+                  <span>Выручка сети</span>
+                  <strong>2 418 000 ₽</strong>
+                </div>
+                <div class="hud-metric">
+                  <span>Нагрузка кухни</span>
+                  <strong>78% (Оптимально)</strong>
+                </div>
+                <div class="hud-callout">
+                  «Синхронизация стоп-листов избавила от отмен и негативных отзывов гостей в Яндекс Еде».
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ПАНЕЛЬ 3: ОПЕРАЦИИ И ДОСТАВКА -->
+          <article class="audience-card" data-audience-panel="ops">
+            <div class="audience-card-main">
+              <span class="audience-badge">ДЛЯ РУКОВОДИТЕЛЕЙ ДОСТАВКИ И ШЕФ-ПОВАРОВ</span>
+              <h3>Прозрачный путь заказа: от разделочной доски до порога гостя</h3>
+              <p class="audience-summary">
+                Синхронизируйте приготовление блюд со скоростью курьеров. Умный алгоритм назначает заказ на ближайшего курьера ровно в тот момент, когда горячее упаковывается.
+              </p>
+              
+              <div class="audience-features-grid">
+                <div class="audience-feature">
+                  <b>Кухонный монитор (KDS)</b>
+                  <p>Умная приоритизация цехов: горячий цех и пицца готовятся синхронно.</p>
+                </div>
+                <div class="audience-feature">
+                  <b>Умная автомаршрутизация</b>
+                  <p>Группировка заказов по адресам и расчет оптимального маршрута курьера.</p>
+                </div>
+                <div class="audience-feature">
+                  <b>Мобильное приложение курьера</b>
+                  <p>Встроенная навигация, статус передачи и прямая связь с гостем без раскрытия номера.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="audience-card-preview">
+              <div class="preview-mini-hud">
+                <div class="hud-header">
+                  <span>Логистический хаб</span>
+                  <span class="hud-pill">Курьеры: 18 на смене</span>
+                </div>
+                <div class="hud-metric">
+                  <span>Доставка в срок</span>
+                  <strong>96.4%</strong>
+                </div>
+                <div class="hud-metric">
+                  <span>Холостой пробег</span>
+                  <strong>-32%</strong>
+                </div>
+                <div class="hud-callout">
+                  «Курьеры больше не ждут заказы на кухне — они забирают уже упакованные пакеты за секунды».
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ПАНЕЛЬ 4: МАРКЕТИНГ И CRM -->
+          <article class="audience-card" data-audience-panel="marketing">
+            <div class="audience-card-main">
+              <span class="audience-badge">ДЛЯ CRM-МАРКЕТОЛОГОВ И ДИРЕКТОРОВ ПО РОСТУ</span>
+              <h3>Возвращайте гостей на основе их реальных гастрономических привычек</h3>
+              <p class="audience-summary">
+                Управляйте программой лояльности, бонусами, триггерными push-уведомлениями и сегментацией без привлечения сторонних интеграторов и агентств.
+              </p>
+              
+              <div class="audience-features-grid">
+                <div class="audience-feature">
+                  <b>Автоматическая RFM-сегментация</b>
+                  <p>Выделение ядра постоянных гостей, засыпающих клиентов и группы риска оттока.</p>
+                </div>
+                <div class="audience-feature">
+                  <b>Гибкая бонусная система</b>
+                  <p>Кешбэк, уровневая система лояльности, временные промокоды с таймером сгорания.</p>
+                </div>
+                <div class="audience-feature">
+                  <b>Персональные рекомендации</b>
+                  <p>Upsell любимых блюд в корзине увеличивает средний чек на 15–20%.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="audience-card-preview">
+              <div class="preview-mini-hud">
+                <div class="hud-header">
+                  <span>CRM: База 48 200 гостей</span>
+                  <span class="hud-pill accent">LTV фокус</span>
+                </div>
+                <div class="hud-metric">
+                  <span>Repeat Order Rate</span>
+                  <strong>41.8%</strong>
+                </div>
+                <div class="hud-metric">
+                  <span>Конверсия Push</span>
+                  <strong>18.2%</strong>
+                </div>
+                <div class="hud-callout">
+                  «Автоматический триггер "Мы соскучились" вернул 320 клиентов в первую же неделю запуска».
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- СЕКЦИЯ 02: ИНТЕРАКТИВНОЕ ДЕМО ИНТЕРФЕЙСА -->
+      <section class="system-section" id="system">
+        <div class="section-meta">
+          <span>02 — ИНТЕРАКТИВНЫЙ ИНТЕРФЕЙС</span>
+          <span>LIVE INTERACTIVE SIMULATION</span>
+        </div>
+
+        <div class="system-heading">
+          <div>
+            <h2>Попробуйте Goulash в действии.</h2>
+            <p>
+              Нажимайте на вкладки, фильтры и переключатели: демонстрационная панель реагирует в режиме реального времени.
+            </p>
+          </div>
+          <div class="system-branch-selector">
+            <span class="selector-label">Локация сети:</span>
+            <select class="branch-select" aria-label="Выбор филиала в демо">
+              <option value="all">Все локации (Сводный обзор)</option>
+              <option value="center" selected>Филиал: Центральный</option>
+              <option value="north">Филиал: Северный квартал</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- КАРКАС ИНТЕРФЕЙСА -->
+        <div class="demo-shell">
+          
+          <!-- САЙДБАР ДЕМО -->
+          <aside class="demo-sidebar">
+            <div class="demo-brand">
+              <span class="demo-brand-mark">G</span>
+              <span>goulash<span class="logo-dot">.</span></span>
+            </div>
+            
+            <div class="sidebar-caption">МОДУЛИ СИСТЕМЫ</div>
+            <button class="demo-nav-item active" data-demo-tab="orders">
+              <span>▦</span> Заказы <b class="orders-count-badge">12</b>
+            </button>
+            <button class="demo-nav-item" data-demo-tab="kitchen">
+              <span>⌂</span> Кухня (KDS)
+            </button>
+            <button class="demo-nav-item" data-demo-tab="delivery">
+              <span>↗</span> Логистика и курьеры
+            </button>
+            <button class="demo-nav-item" data-demo-tab="crm">
+              <span>◎</span> Лояльность & CRM
+            </button>
+            <button class="demo-nav-item" data-demo-tab="analytics">
+              <span>▤</span> Аналитика
+            </button>
+            
+            <div class="demo-sidebar-foot">
+              <span class="demo-live-dot"></span> Демо-режим 
+              <small>Симуляция потока заказов</small>
+            </div>
+          </aside>
+
+          <!-- ОСНОВНАЯ ЧАСТЬ ДЕМО -->
+   <!-- ОСНОВНАЯ ЧАСТЬ ДЕМО -->
+          <div class="demo-main">
+            
+            <!-- ВЕРХНЯЯ СТРОКА СТАТУСА -->
+            <div class="demo-topbar">
+              <div>
+                <span class="demo-overline">РЕСТОРАН / ОПЕРАЦИИ В ЭФИРЕ</span>
+                <h3 class="demo-current-view-title">Поток заказов в реальном времени</h3>
+              </div>
+              <div class="demo-top-meta">
+                <span class="demo-live-dot"></span> <span id="current-branch-label">Филиал: Центральный</span> · <span class="demo-time">14:28</span>
+              </div>
+            </div>
+
+            <!-- 1. ЭКРАН: ЗАКАЗЫ (ORDERS) -->
+            <div class="demo-view active" data-view-content="orders">
+              <div class="demo-stats">
+                <article class="demo-stat">
+                  <span>Новые заказы</span>
+                  <strong id="stat-new">3</strong>
+                  <small><i class="stat-up">⚡</i> Все каналы связи</small>
+                </article>
+                <article class="demo-stat">
+                  <span>Готовятся на кухне</span>
+                  <strong id="stat-cook">2</strong>
+                  <small id="stat-cook-sub">Ср. сборка: 12 мин</small>
+                </article>
+                <article class="demo-stat">
+                  <span>У курьеров</span>
+                  <strong id="stat-delivery">2</strong>
+                  <small id="stat-delivery-sub">На маршрутах</small>
+                </article>
+                <article class="demo-stat">
+                  <span>Время доставки</span>
+                  <strong id="stat-time">28 <em>мин</em></strong>
+                  <small><i class="stat-up">↓</i> В пределах нормы</small>
+                </article>
+              </div>
+
+              <div class="demo-workspace-head">
+                <div>
+                  <h4>Журнал текущих чеков</h4>
+                  <p>Фильтрация заказов по филиалу и статусу готовности</p>
+                </div>
+                <span class="demo-count" id="orders-total-label">Показано: 4 из 4</span>
+              </div>
+
+              <!-- ФИЛЬТРЫ СТАТУСА ЗАКАЗОВ -->
+              <div class="demo-filters" role="group" aria-label="Фильтры заказов">
+                <button class="demo-filter active" data-filter="all">Все <b class="filter-cnt" id="cnt-all">4</b></button>
+                <button class="demo-filter" data-filter="new">Новые <b class="filter-cnt" id="cnt-new">1</b></button>
+                <button class="demo-filter" data-filter="cook">На кухне <b class="filter-cnt" id="cnt-cook">2</b></button>
+                <button class="demo-filter" data-filter="delivery">В доставке <b class="filter-cnt" id="cnt-delivery">1</b></button>
+              </div>
+
+              <!-- ТАБЛИЦА ЗАКАЗОВ С ПРИВЯЗКОЙ К ФИЛИАЛАМ -->
+              <div class="demo-orders-table">
+                <div class="demo-order demo-table-head">
+                  <span>НОМЕР / ВРЕМЯ</span>
+                  <span>ИСТОЧНИК / ТОЧКА</span>
+                  <span>ПОЗИЦИИ</span>
+                  <span>СТАТУС</span>
+                  <span>СУММА</span>
+                </div>
+
+                <!-- ЗАКАЗЫ ФИЛИАЛА ЦЕНТР -->
+                <div class="demo-order" data-status="new" data-branch="center">
+                  <span><b>#1048</b><small>14:26 · Центр</small></span>
+                  <span><i class="channel-dot site"></i> Сайт · <i>Центральный</i></span>
+                  <span>Пицца 4 сыра, Морс 0.5л</span>
+                  <span><i class="order-status status-new"></i> Новый</span>
+                  <strong>1 480 ₽</strong>
+                </div>
+
+                <div class="demo-order" data-status="cook" data-branch="center">
+                  <span><b>#1047</b><small>14:21 · Центр</small></span>
+                  <span><i class="channel-dot app"></i> App · <i>Центральный</i></span>
+                  <span>Том Ям, Рис с креветками</span>
+                  <span><i class="order-status status-cook"></i> Готовится</span>
+                  <strong>2 260 ₽</strong>
+                </div>
+
+                <div class="demo-order" data-status="cook" data-branch="center">
+                  <span><b>#1046</b><small>14:15 · Центр</small></span>
+                  <span><i class="channel-dot aggregator"></i> Яндекс Еда</span>
+                  <span>Бургер Трюфельный, Фри</span>
+                  <span><i class="order-status status-cook"></i> Сборка</span>
+                  <strong>1 890 ₽</strong>
+                </div>
+
+                <div class="demo-order" data-status="delivery" data-branch="center">
+                  <span><b>#1045</b><small>14:04 · Центр</small></span>
+                  <span><i class="channel-dot phone"></i> Колл-центр</span>
+                  <span>Сет Филадельфия, Кола 1л</span>
+                  <span><i class="order-status status-delivery"></i> Курьер Азамат</span>
+                  <strong>2 740 ₽</strong>
+                </div>
+
+                <!-- ЗАКАЗЫ ФИЛИАЛА СЕВЕР -->
+                <div class="demo-order" data-status="new" data-branch="north">
+                  <span><b>#2089</b><small>14:27 · Север</small></span>
+                  <span><i class="channel-dot site"></i> Сайт · <i>Северный кв.</i></span>
+                  <span>Фо Бо, Нэмы со свининой</span>
+                  <span><i class="order-status status-new"></i> Новый</span>
+                  <strong>1 350 ₽</strong>
+                </div>
+
+                <div class="demo-order" data-status="new" data-branch="north">
+                  <span><b>#2088</b><small>14:24 · Север</small></span>
+                  <span><i class="channel-dot app"></i> App · <i>Северный кв.</i></span>
+                  <span>Пицца Пепперони 35см</span>
+                  <span><i class="order-status status-new"></i> Новый</span>
+                  <strong>890 ₽</strong>
+                </div>
+
+                <div class="demo-order" data-status="cook" data-branch="north">
+                  <span><b>#2087</b><small>14:18 · Север</small></span>
+                  <span><i class="channel-dot aggregator"></i> Деливери</span>
+                  <span>Удон с курицей терияки</span>
+                  <span><i class="order-status status-cook"></i> Вок-цех</span>
+                  <strong>1 140 ₽</strong>
+                </div>
+
+                <div class="demo-order" data-status="delivery" data-branch="north">
+                  <span><b>#2086</b><small>14:09 · Север</small></span>
+                  <span><i class="channel-dot app"></i> App · <i>Северный кв.</i></span>
+                  <span>Поке с лососем, Матча</span>
+                  <span><i class="order-status status-delivery"></i> Курьер Руслан</span>
+                  <strong>1 680 ₽</strong>
+                </div>
+              </div>
+
+              <div class="demo-insight">
+                <span class="insight-icon">✳</span>
+                <div>
+                  <b id="orders-insight-title">Автоматическая приоритизация заказов</b>
+                  <p id="orders-insight-text">Заказы распределяются между цехами кухни автоматически с учетом текущей загрузки смены.</p>
+                </div>
+                <span class="insight-tag">REALTIME SYNC</span>
+              </div>
+            </div>
+
+            <!-- 2. ЭКРАН: КУХНЯ KDS -->
+            <div class="demo-view" data-view-content="kitchen">
+              <div class="kds-grid">
+                <!-- Центр -->
+                <article class="kds-ticket urgent" data-branch="center">
+                  <div class="kds-ticket-head">
+                    <span>#1047 · <b>Том Ям</b></span>
+                    <span class="kds-timer">06:40 / 12:00</span>
+                  </div>
+                  <ul class="kds-items">
+                    <li>✓ Бульон креветочный</li>
+                    <li>⏳ Добавление морепродуктов</li>
+                    <li>⚪ Рис жасминовый</li>
+                  </ul>
+                  <div class="kds-status-bar">Центр · Горячий цех (Артём)</div>
+                </article>
+
+                <article class="kds-ticket" data-branch="center">
+                  <div class="kds-ticket-head">
+                    <span>#1046 · <b>Бургер Трюфель</b></span>
+                    <span class="kds-timer ok">09:15 / 10:00</span>
+                  </div>
+                  <ul class="kds-items">
+                    <li>✓ Котлета Medium</li>
+                    <li>✓ Булочка бриошь</li>
+                    <li>✓ Картофель фри</li>
+                  </ul>
+                  <div class="kds-status-bar ready">Центр · На упаковке</div>
+                </article>
+
+                <article class="kds-ticket" data-branch="center">
+                  <div class="kds-ticket-head">
+                    <span>#1048 · <b>Пицца 4 сыра</b></span>
+                    <span class="kds-timer">02:10 / 14:00</span>
+                  </div>
+                  <ul class="kds-items">
+                    <li>✓ Раскатка теста</li>
+                    <li>⏳ Сырная начинка</li>
+                    <li>⚪ Отправка в печь</li>
+                  </ul>
+                  <div class="kds-status-bar">Центр · Пицца-цех (Печь #2)</div>
+                </article>
+
+                <!-- Север -->
+                <article class="kds-ticket urgent" data-branch="north">
+                  <div class="kds-ticket-head">
+                    <span>#2087 · <b>Удон с курицей</b></span>
+                    <span class="kds-timer">04:20 / 08:00</span>
+                  </div>
+                  <ul class="kds-items">
+                    <li>✓ Обжарка овощей</li>
+                    <li>⏳ Лапша пшеничная удон</li>
+                    <li>⚪ Соус терияки</li>
+                  </ul>
+                  <div class="kds-status-bar">Север · Вок-линия (Ольга)</div>
+                </article>
+
+                <article class="kds-ticket" data-branch="north">
+                  <div class="kds-ticket-head">
+                    <span>#2088 · <b>Пицца Пепперони</b></span>
+                    <span class="kds-timer ok">07:50 / 11:00</span>
+                  </div>
+                  <ul class="kds-items">
+                    <li>✓ Тесто 35см тонкое</li>
+                    <li>✓ Пепперони, орегано</li>
+                    <li>✓ Выпекание</li>
+                  </ul>
+                  <div class="kds-status-bar ready">Север · Финишная нарезка</div>
+                </article>
+              </div>
+
+              <div class="demo-insight">
+                <span class="insight-icon">⌂</span>
+                <div>
+                  <b>Синхронизация выдачи блюд</b>
+                  <p>Курьер назначается за 5 минут до готовности последнего блюда — еда не стынет на раздаче.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3. ЭКРАН: ДОСТАВКА И КУРЬЕРЫ -->
+            <div class="demo-view" data-view-content="delivery">
+              <div class="couriers-list">
+                <!-- Центр -->
+                <div class="courier-card" data-branch="center">
+                  <div class="courier-avatar">А</div>
+                  <div class="courier-info">
+                    <b>Азамат К. (Электробайк) · [Филиал Центр]</b>
+                    <small>Чек #1045 · ул. Ленина, 42 · Доставить до 14:45</small>
+                  </div>
+                  <span class="courier-badge on-way">В пути (3.2 км)</span>
+                </div>
+
+                <div class="courier-card" data-branch="center">
+                  <div class="courier-avatar idle">И</div>
+                  <div class="courier-info">
+                    <b>Илья С. (Пеший) · [Филиал Центр]</b>
+                    <small>Свободен · Находится на точке Центральная</small>
+                  </div>
+                  <span class="courier-badge idle">Ожидает #1046</span>
+                </div>
+
+                <!-- Север -->
+                <div class="courier-card" data-branch="north">
+                  <div class="courier-avatar">Р</div>
+                  <div class="courier-info">
+                    <b>Руслан М. (Авто) · [Филиал Север]</b>
+                    <small>Чек #2086 · пр. Просвещения, 84 · Доставить до 14:35</small>
+                  </div>
+                  <span class="courier-badge on-way">У адресата</span>
+                </div>
+
+                <div class="courier-card" data-branch="north">
+                  <div class="courier-avatar idle">Е</div>
+                  <div class="courier-info">
+                    <b>Евгений Т. (Самокат) · [Филиал Север]</b>
+                    <small>Свободен · Радиус доставки 2.5 км</small>
+                  </div>
+                  <span class="courier-badge idle">Ожидает заказ</span>
+                </div>
+              </div>
+
+              <div class="demo-insight">
+                <span class="insight-icon">↗</span>
+                <div>
+                  <b>Smart Dispatch для локаций сети</b>
+                  <p>Алгоритм учитывает радиусы филиалов и исключает выезд курьера в чужие зоны доставки.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4. ЭКРАН: ЛОЯЛЬНОСТЬ И CRM -->
+            <div class="demo-view" data-view-content="crm">
+              <div class="crm-grid">
+                <div class="crm-card">
+                  <span>ЯДРО ЛОЯЛЬНЫХ (VIP)</span>
+                  <strong id="crm-stat-vip">840 гостей</strong>
+                  <p id="crm-stat-vip-desc">Частота: 4.8 заказов/мес · Центр</p>
+                  <div class="crm-pill">Авто-кешбэк 10%</div>
+                </div>
+                <div class="crm-card warning">
+                  <span>ЗАСЫПАЮЩИЕ (30+ ДНЕЙ)</span>
+                  <strong id="crm-stat-churn">310 гостей</strong>
+                  <p id="crm-stat-churn-desc">Не заказывали больше месяца</p>
+                  <div class="crm-pill action">Push: «Дарим пиццу»</div>
+                </div>
+                <div class="crm-card success">
+                  <span>НОВЫЕ ГОСТИ СЕГОДНЯ</span>
+                  <strong id="crm-stat-new">+18 регистраций</strong>
+                  <p id="crm-stat-new-desc">Конверсия во 2-й заказ: 39%</p>
+                  <div class="crm-pill">Welcome-бонус</div>
+                </div>
+              </div>
+
+              <div class="demo-insight">
+                <span class="insight-icon">◎</span>
+                <div>
+                  <b>Единая база гостей для всей сети</b>
+                  <p>Гость может накапливать баллы в Центре и тратить их в Северном филиале без разрыва баланса.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 5. ЭКРАН: АНАЛИТИКА -->
+            <div class="demo-view" data-view-content="analytics">
+              <div class="analytics-row">
+                <div class="analytic-box">
+                  <span>ВЫРУЧКА СЕГОДНЯ</span>
+                  <strong id="analytics-rev">84 200 ₽</strong>
+                  <small class="stat-up" id="analytics-rev-sub">↑ +14.2% к прошлой неделе</small>
+                </div>
+                <div class="analytic-box">
+                  <span>СРЕДНИЙ ЧЕК</span>
+                  <strong id="analytics-check">1 940 ₽</strong>
+                  <small class="stat-up">↑ +140 ₽ за счет комбо</small>
+                </div>
+                <div class="analytic-box">
+                  <span>СКОРОСТЬ ДОСТАВКИ</span>
+                  <strong id="analytics-speed">27.5 мин</strong>
+                  <small class="stat-up">⚡ В графике</small>
+                </div>
+              </div>
+
+              <div class="demo-insight">
+                <span class="insight-icon">▤</span>
+                <div>
+                  <b>Сводная P&L аналитика сети</b>
+                  <p>Выручка рассчитывается за вычетом комиссий агрегаторов и списанных бонусов в реальном времени.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- ЛЕГЕНДА КАНАЛОВ -->
+            <div class="demo-legend">
+              <span><i class="channel-dot site"></i> Сайт заведения</span>
+              <span><i class="channel-dot app"></i> Фирменное приложение</span>
+              <span><i class="channel-dot aggregator"></i> Агрегаторы</span>
+              <span><i class="channel-dot phone"></i> Колл-центр / Телефон</span>
+            </div>
+
+          </div>
+        </div>
+
+   
+      </section>
+
+      <!-- СЕКЦИЯ 03: ВОЗМОЖНОСТИ ПЛАТФОРМЫ -->
+      <section class="section benefits" id="platform">
+        <div class="section-meta">
+          <span>03 — ВОЗМОЖНОСТИ ПЛАТФОРМЫ</span>
+          <span>ENGINEERED FOR SCALABLE RESTAURANTS</span>
+        </div>
+
+        <div class="benefits-heading">
+          <h2>
+            Технологии вместо ручного труда.<br>
+            <span>Вся экосистема в связке.</span>
+          </h2>
+          <p>
+            Каждый модуль усиливает другие: когда кухня ставит статус «Готово», курьер уже подъезжает к рампе выдачи, а гость получает ссылку на живой трекер.
+          </p>
+        </div>
+
+        <div class="benefit-list">
+  <div class="benefit-row">
+    <div class="benefit-id">01</div>
+    <div class="benefit-content">
+      <h3>Мультиканальный агрегатор заказов</h3>
+      <p>Принимайте заказы с сайта, брендового приложения, Telegram-бота и всех популярных агрегаторов в единую ленту без ручного перебивания.</p>
+    </div>
+  </div>
+
+  <div class="benefit-row">
+    <div class="benefit-id">02</div>
+    <div class="benefit-content">
+      <h3>KDS: Интеллектуальный кухонный дисплей</h3>
+      <p>Цветовая индикация задержек, расчет времени подачи разных блюд к одному времени и мгновенная отправка статуса упаковщику.</p>
+    </div>
+  </div>
+
+  <div class="benefit-row">
+    <div class="benefit-id">03</div>
+    <div class="benefit-content">
+      <h3>Логистический хаб и приложение курьера</h3>
+      <p>Автоматическое объединение попутных заказов, точные полигоны зон доставки и оптимизация затрат на курьерскую смену до 30%.</p>
+    </div>
+  </div>
+
+  <div class="benefit-row">
+    <div class="benefit-id">04</div>
+    <div class="benefit-content">
+      <h3>CRM, лояльность и когортный анализ</h3>
+      <p>RFM-сегментация в автоматическом режиме, персональные кешбэки, поздравления с днями рождения и предотвращение оттока гостей.</p>
+    </div>
+  </div>
+</div>
+      </section>
+
+      <!-- СЕКЦИЯ 04: ФОРМА ЗАЯВКИ С ПРОВЕРКОЙ ПОЛЕЙ И СТАТУСАМИ (ТРЕБОВАНИЕ ТЗ) -->
+      <section class="contact-section" id="contact">
+        <div class="contact-orbit"></div>
+        
+        <div class="contact-content">
+          <span class="contact-kicker"><span></span> ПОДКЛЮЧЕНИЕ К ПЛАТФОРМЕ</span>
+          <h2>Переведите доставку<br><span>на системный уровень.</span></h2>
+          <p>
+            Оставьте заявку на персональный разбор процессов. Покажем работу системы на реальных сценариях вашего заведения.
+          </p>
+
+<form class="lead-form" id="leadForm" novalidate>
+  <div class="form-grid">
+    <!-- Имя -->
+    <div class="form-group" id="group-name">
+      <label for="leadName">Ваше имя *</label>
+      <input type="text" id="leadName" name="name" placeholder="Константин" autocomplete="name">
+      <span class="field-error-text">Пожалуйста, укажите имя</span>
+    </div>
+
+    <!-- Телефон / Telegram -->
+    <div class="form-group" id="group-contact">
+      <label for="leadContact">Телефон или Telegram *</label>
+      <input type="text" id="leadContact" name="contact" placeholder="+7 (999) 000-00-00 или @username" autocomplete="tel">
+      <span class="field-error-text">Укажите телефон или Telegram для связи</span>
+    </div>
+
+    <!-- Название компании -->
+    <div class="form-group" id="group-company">
+      <label for="leadCompany">Название заведения / компании *</label>
+      <input type="text" id="leadCompany" name="company" placeholder="Например: Craft & Grill">
+      <span class="field-error-text">Укажите название компании</span>
+    </div>
+
+    <!-- Город -->
+    <div class="form-group" id="group-city">
+      <label for="leadCity">Город *</label>
+      <input type="text" id="leadCity" name="city" placeholder="Москва, Санкт-Петербург...">
+      <span class="field-error-text">Укажите город</span>
+    </div>
+
+    <!-- Формат бизнеса (необязательное) -->
+    <div class="form-group" id="group-format">
+      <label for="leadFormat">Формат бизнеса</label>
+      <select id="leadFormat" name="format">
+        <option value="single">Одиночный ресторан / кафе</option>
+        <option value="chain">Сеть ресторанов (от 2 точек)</option>
+        <option value="darkkitchen">Dark Kitchen / только доставка</option>
+        <option value="franchise">Франшизная сеть</option>
+      </select>
+    </div>
+
+    <!-- Задача / боль (необязательное) -->
+    <div class="form-group" id="group-task">
+      <label for="leadTask">Главная задача или текущая боль</label>
+      <input type="text" id="leadTask" name="task" placeholder="Например: путаница с курьерами, долгая сборка">
+    </div>
+  </div>
+
+  <div class="form-checkbox-wrapper" id="group-consent">
+    <label class="form-checkbox-label">
+      <input type="checkbox" id="leadConsent" checked>
+      <span>Согласен на обработку персональных данных и демонстрацию продукта</span>
+    </label>
+    <span class="field-error-text">Необходимо согласие на обработку данных</span>
+  </div>
+
+  <div class="form-action-row">
+    <button type="submit" class="button button-submit" id="submitBtn">
+      <span class="btn-text">Получить демо-доступ ↗</span>
+      <span class="btn-loader"></span>
+    </button>
+  </div>
+
+  <!-- Блок успешной отправки -->
+  <div class="form-status status-success" id="formSuccess">
+    <div class="status-icon">✓</div>
+    <div class="status-text">
+      <strong>Заявка успешно отправлена!</strong>
+      <p>Мы свяжемся с вами в течение 15 минут в рабочее время для подготовки демо-контура.</p>
+    </div>
+  </div>
+
+  <!-- Общий блок ошибки -->
+  <div class="form-status status-error" id="formError">
+    <div class="status-icon">!</div>
+    <div class="status-text">
+      <strong>Не удалось отправить заявку</strong>
+      <p>Пожалуйста, заполните обязательные поля, выделенные красным.</p>
+    </div>
+  </div>
+</form>
+
+          <span class="contact-disclaimer">
+            Внедрение системы от 2 рабочих дней. Интеграция с существующими POS-системами (iiko, r_keeper и др.).
+          </span>
+        </div>
+
+        <div class="contact-decoration" aria-hidden="true">
+          <svg class="g2-logo__mark" viewBox="0 0 48 48" fill="none">
+            <path d="M35.8708 0H11.6535C5.21774 0 0 5.24615 0 11.7169V36.0662C0 42.5369 5.21774 47.7831 11.6535 47.7831H35.8708C42.3065 47.7831 47.5243 42.5369 47.5243 36.0662V11.7154C47.5243 5.24462 42.3065 0 35.8708 0Z" fill="#00FFFF"></path>
+          </svg>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <a class="logo footer-logo" href="#top" aria-label="Goulash — на главную">
+        <svg class="g2-logo__mark" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+          <path d="M35.8708 0H11.6535C5.21774 0 0 5.24615 0 11.7169V36.0662C0 42.5369 5.21774 47.7831 11.6535 47.7831H35.8708C42.3065 47.7831 47.5243 42.5369 47.5243 36.0662V11.7154C47.5243 5.24462 42.3065 0 35.8708 0Z" fill="#00FFFF"></path>
+          <path d="M15.8418 15.9297H7.92188V23.8928V31.8558H15.8418V23.8928V15.9297Z" fill="#040406"></path>
+          <path d="M31.6827 15.9295V7.96484H23.7628H15.8413V15.9295H23.7628H31.6827Z" fill="#040406"></path>
+          <path d="M15.8413 31.8555V39.8201H23.7628H31.6827V31.8555H23.7628H15.8413Z" fill="#040406"></path>
+          <path d="M39.6031 23.8945H31.6831V31.8576H39.6031V23.8945Z" fill="#040406"></path>
+        </svg>
+        <span class="logo-name">Goulash.tech</span>
+      </a>
+      <span>GOULASH RESTAURANT SYSTEMS © 2026</span>
+      <a href="#top" class="back-top">В начало ↑</a>
+    </footer>
+
+  </div>
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
