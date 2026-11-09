@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arthursatine.github.io/sitemap.xml
