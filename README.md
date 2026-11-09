@@ -22,4 +22,4 @@ GitHub Pages автоматически опубликует изменения 
 
 ## Адрес сайта
 
-Основной адрес портфолио — `https://arthursatine.github.io/`. Репозиторий должен сохранять имя `arthursatine.github.io`, чтобы GitHub Pages публиковал его как пользовательский сайт.
+Основной адрес портфолио — `https://tsaritovart.github.io/`. Репозиторий должен сохранять имя `tsaritovart.github.io`, чтобы GitHub Pages публиковал его как пользовательский сайт.

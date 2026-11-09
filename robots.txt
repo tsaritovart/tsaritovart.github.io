@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://arthursatine.github.io/sitemap.xml
+Sitemap: https://tsaritovart.github.io/sitemap.xml
