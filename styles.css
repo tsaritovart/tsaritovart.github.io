@@ -13,7 +13,7 @@
 @media(max-width:900px){.site-header{grid-template-columns:1fr auto}.site-header nav{display:none}.hero-copy{grid-template-columns:1fr}.hero-copy p{margin-top:20px;text-align:left}.chapter{grid-template-columns:1fr;gap:28px}.chapter p{margin-left:auto}.film-pair--uneven{grid-template-columns:1fr 1fr}.browser-stage{height:72vh}}
 @media(max-width:600px){body{font-size:14px}.site-header{padding-top:14px}.availability{font-size:0!important}.availability i{width:10px;height:10px}.hero{min-height:650px}.hero-copy{bottom:72px}.hero h1{font-size:17vw;line-height:.82}.hero-copy p{font-size:15px}.hero-caption span{display:none}.chapter{margin-bottom:58px}.chapter h2{font-size:14vw}.chapter p{margin-left:0}.ai-work,.section{padding-top:100px;padding-bottom:100px}.cinema-list{gap:74px}.film--feature video,.film--panorama video,.film video{aspect-ratio:16/10}.film--panorama{margin-left:0;margin-right:0}.film--panorama footer{padding-left:0;padding-right:0}.film-pair,.film-pair--uneven{grid-template-columns:1fr;gap:74px}.film footer{display:block}.film p{margin-top:3px;text-align:left}.portrait-reel{margin-top:120px}.portrait-reel>header{display:block}.portrait-reel>header p{margin-top:8px}.portrait-track video{flex-basis:58vw;width:58vw}.browser-stage{height:74svh}.browser-enter{width:140px;height:140px;right:18px;bottom:18px}.browser-footer p{display:none}.case>header{display:block}.case header p{margin-top:6px}.case-track img{flex-basis:90vw;width:90vw}.site-footer{min-height:66svh}.site-footer>a{font-size:12vw}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.is-loading .hero-screen,.is-ready .hero-screen{clip-path:none;animation:none}.is-ready .hero-copy{animation:none}}
-.site-header{mix-blend-mode:normal;background:#000}
+.site-header{mix-blend-mode:normal;background:linear-gradient(180deg,rgba(0,0,0,.68),rgba(0,0,0,.28) 58%,transparent)}
 @media(max-width:600px){.availability{width:44px;height:44px;justify-content:center;margin:-10px -10px -10px 0}}
 .browser-enter{inset:50% auto auto 50%;right:auto;bottom:auto;transform:translate(-50%,-50%);color:var(--ink)}
 .browser-enter:hover{transform:translate(-50%,-50%) scale(1.06)}
@@ -33,7 +33,6 @@
 .site-header{grid-template-columns:auto 1fr auto;z-index:100}
 .site-header nav{justify-self:start;margin-left:clamp(52px,8vw,160px)}
 .hero-screen video{transform:scale(1.14)}
-.hero::after{content:"";position:absolute;z-index:1;left:0;right:0;bottom:0;height:64px;background:#000;pointer-events:none}
 .portrait-track,.case-track{scrollbar-width:none;touch-action:auto;user-select:none}
 .portrait-track::-webkit-scrollbar,.case-track::-webkit-scrollbar{display:none}
 .portrait-track.is-dragging,.case-track.is-dragging{cursor:grabbing;scroll-snap-type:none;scroll-behavior:auto!important}
