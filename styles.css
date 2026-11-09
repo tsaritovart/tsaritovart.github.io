@@ -32,6 +32,7 @@
 .live-browser.is-live .browser-stage::after{opacity:0}
 .site-header{grid-template-columns:auto 1fr auto;z-index:100}
 .site-header nav{justify-self:start;margin-left:clamp(52px,8vw,160px)}
+.hero-screen video{transform:scale(1.12)}
 .portrait-track,.case-track{scrollbar-width:none;touch-action:auto;user-select:none}
 .portrait-track::-webkit-scrollbar,.case-track::-webkit-scrollbar{display:none}
 .portrait-track.is-dragging,.case-track.is-dragging{cursor:grabbing;scroll-snap-type:none;scroll-behavior:auto!important}
