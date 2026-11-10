@@ -51,3 +51,4 @@
 @media(max-width:600px){.portrait-track .swiper-slide{width:58vw}.case-track .swiper-slide{width:90vw}}
 .case-track::-webkit-scrollbar{width:auto;height:8px}
 @media(max-width:600px){.case-track{height:auto}.case-track img{flex-basis:90vw;width:90vw}}
+.campaign-slide{flex:0 0 min(82vw,1180px);width:min(82vw,1180px);margin:0;scroll-snap-align:start}.campaign-slide figcaption{min-height:42px;padding:0 0 12px;font-size:clamp(14px,1.35vw,18px);line-height:1.35;color:var(--ink)}.campaign-slide img{display:block;width:100%;height:auto}.case-track .swiper-slide>.campaign-slide{width:100%}@media(max-width:600px){.campaign-slide{flex-basis:90vw;width:90vw}.campaign-slide figcaption{min-height:38px;padding-bottom:10px}}
