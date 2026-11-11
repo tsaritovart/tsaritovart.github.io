@@ -8,6 +8,7 @@ colors:
   quiet-gray: "#999c97"
   paper-muted: "#5f625e"
   action-cyan: "#8debff"
+  packaging-board: "#b4c3d7"
   white: "#ffffff"
   dark-hairline: "rgba(8,8,8,.32)"
   light-hairline: "rgba(235,236,231,.24)"
@@ -57,6 +58,7 @@ The palette combines screening-room black with warm bone paper and uses electric
 ### Primary
 
 - **Electric Cyan** (`#8debff`): Live-project action, availability indicator, focus outline, selection, live status, and contact footer.
+- **Packaging Board** (`#b4c3d7`): Neutral mounting surface used only behind the Oral-B packaging artwork thumbnail.
 
 ### Neutral
 

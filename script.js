@@ -133,3 +133,20 @@ if (oralFeatureTrack && typeof Swiper !== 'undefined') {
     }
   });
 }
+
+const packModal = document.querySelector('[data-pack-modal]');
+const packOpen = document.querySelector('[data-pack-open]');
+const packClose = document.querySelector('[data-pack-close]');
+const packFull = document.querySelector('[data-pack-full]');
+
+packOpen?.addEventListener('click', () => {
+  if (!packModal) return;
+  if (packFull?.dataset.src) packFull.src = packFull.dataset.src;
+  packModal.showModal();
+});
+
+packClose?.addEventListener('click', () => packModal?.close());
+packModal?.addEventListener('click', (event) => {
+  if (event.target === packModal) packModal.close();
+});
+packModal?.addEventListener('close', () => packOpen?.focus());
