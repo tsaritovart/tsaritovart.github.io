@@ -118,3 +118,14 @@ createSwiper(
   document.querySelector('[data-portrait-next]'),
   'portrait'
 );
+
+const oralFeatureTrack = document.querySelector('.oral-feature-track');
+if (oralFeatureTrack && typeof Swiper !== 'undefined') {
+  new Swiper(oralFeatureTrack, {
+    slidesPerView: 1,
+    speed: reducedMotion.matches ? 0 : 620,
+    grabCursor: oralFeatureTrack.querySelectorAll('.swiper-slide').length > 1,
+    watchOverflow: true,
+    keyboard: { enabled: true, onlyInViewport: true }
+  });
+}
