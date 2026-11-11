@@ -126,6 +126,10 @@ if (oralFeatureTrack && typeof Swiper !== 'undefined') {
     speed: reducedMotion.matches ? 0 : 620,
     grabCursor: oralFeatureTrack.querySelectorAll('.swiper-slide').length > 1,
     watchOverflow: true,
-    keyboard: { enabled: true, onlyInViewport: true }
+    keyboard: { enabled: true, onlyInViewport: true },
+    navigation: {
+      prevEl: document.querySelector('[data-oral-prev]'),
+      nextEl: document.querySelector('[data-oral-next]')
+    }
   });
 }
